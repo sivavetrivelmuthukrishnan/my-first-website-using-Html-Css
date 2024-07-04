@@ -1,0 +1,143 @@
+body{
+    margin: 0 0;
+    background-color: rgb(240, 240, 240);
+}
+
+.nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    
+}   
+
+.nav ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+ 
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+     font-size: 17px;
+     font-family: sans-serif;
+     margin: 20px;
+}
+    .logo{
+        height: 150px;
+    }
+  input{
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  .signin{
+    background-color: transparent;
+    border: none;
+  }
+
+  .signup{
+    background-color:rgb(255, 78, 13);
+    border-radius: 5px;
+    color: white;
+    outline: none;
+    border: none;
+    
+  }
+  .parent{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+
+  #fruits{
+  width: 400px;
+  animation: rotate 10s linear infinite;
+   
+
+  }
+
+ .mycontainer {
+    /* width:100%; */
+    margin-left: 50px;
+    
+    height: 350px;
+   
+  }
+
+ 
+
+.r1 {
+    width:15%;  
+    float:left;
+    border: solid white ;
+    margin: 20px;
+    box-shadow: 10px 10px 5px lightgray;
+  }
+
+ #q{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-left: 50px;
+ 
+ }
+
+ #q2{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-left: 50px;
+ 
+ }
+
+ #q3{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-left: 50px;
+ 
+ }
+
+ #q4{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-left: 50px;
+ 
+ }
+
+ #q5{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-left: 50px;
+ 
+ }
+ pre{
+  font-family: sans-serif;
+ }
+
+
+ footer{
+  background-color: rgb(219, 198, 198);
+  width: 100%;
+  display: flex;
+
+
+}
+
+.tr{
+  margin-top: 20px;
+  margin: 50px;
+}
+
+li:hover{
+    color: orange;
+}
+
+ 
+   
+
+
